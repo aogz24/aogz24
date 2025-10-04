@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agus Riyanto - Data Scientist & Full Stack Developer</title>
+    <meta name="description" content="Portfolio Agus Riyanto - Data Scientist, Statistisi, dan Full Stack Developer dengan keahlian di Python, JavaScript, dan teknologi modern.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <i class="fas fa-code"></i>
+            </div>
+            <div class="loading-text">Memuat Portfolio...</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <span class="logo-text">AR</span>
+                    <span class="logo-subtitle">Dev</span>
+                </div>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Keahlian</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Proyek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Kontak</a>
+                    </li>
+                </ul>
+                
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <p class="hero-greeting">Halo, saya</p>
+                        <h1 class="hero-name" id="hero-name">Agus Riyanto</h1>
+                        <h2 class="hero-title" id="hero-title">
+                            <span class="typing-text">Data Scientist</span>
+                        </h2>
+                        <p class="hero-description">
+                            Passionate tentang mengubah data menjadi insight yang berharga dan membangun 
+                            solusi teknologi yang inovatif. Minat dalam Machine Learning, 
+                            Statistical Analysis, dan Full Stack Development.
+                        </p>
+                        
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary">
+                                <i class="fas fa-rocket"></i>
+                                Lihat Proyek
+                            </a>
+                            <a href="#contact" class="btn btn-secondary">
+                                <i class="fas fa-envelope"></i>
+                                Hubungi Saya
+                            </a>
+                        </div>
+                        
+                        <div class="hero-social">
+                            <a href="#" class="social-link" id="github-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link" id="linkedin-link" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link" id="email-link">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual">
+                        <div class="hero-card">
+                            <div class="card-content">
+                                <div class="code-lines">
+                                    <div class="code-line">
+                                        <span class="code-keyword">import</span>
+                                        <span class="code-module">pandas</span>
+                                        <span class="code-keyword">as</span>
+                                        <span class="code-variable">pd</span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="code-keyword">import</span>
+                                        <span class="code-module">numpy</span>
+                                        <span class="code-keyword">as</span>
+                                        <span class="code-variable">np</span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="code-keyword">from</span>
+                                        <span class="code-module">sklearn</span>
+                                        <span class="code-keyword">import</span>
+                                        <span class="code-variable">model_selection</span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="code-comment"># Building the future with data</span>
+                                    </div>
+                                    <div class="code-line">
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="stats">
+                                    <div class="stat-item">
+                                        <div class="stat-number" id="projects-count">6+</div>
+                                        <div class="stat-label">Proyek</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-number" id="skills-count">15+</div>
+                                        <div class="stat-label">Teknologi</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-number">3+</div>
+                                        <div class="stat-label">Tahun Pengalaman</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="scroll-indicator">
+                    <div class="scroll-text">Scroll Down</div>
+                    <div class="scroll-arrow">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Tentang Saya</h2>
+                    <p class="section-subtitle">Mengenal lebih dekat profil dan background saya</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="about-description">
+                            <p>
+                                Saya adalah seorang <strong>Data Scientist</strong> dan <strong>Full Stack Developer</strong> 
+                                yang passionate dalam mengolah data untuk menghasilkan insight yang berharga. 
+                                Dengan background sebagai Statistisi, saya memiliki pemahaman mendalam tentang 
+                                metodologi penelitian dan analisis data.
+                            </p>
+                            <p>
+                                Keahlian saya mencakup pengembangan aplikasi web modern, analisis statistik, 
+                                machine learning, dan pengembangan tools desktop untuk Small Area Estimation (SAE). 
+                                Saya selalu antusias untuk belajar teknologi baru dan menerapkannya dalam 
+                                proyek-proyek yang menantang.
+                            </p>
+                        </div>
+                        
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-chart-line"></i>
+                                <div class="highlight-content">
+                                    <h4>Data Science</h4>
+                                    <p>Machine Learning, Statistical Analysis, Data Visualization</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-code"></i>
+                                <div class="highlight-content">
+                                    <h4>Full Stack Development</h4>
+                                    <p>JavaScript, Python, Node.js, React, Laravel</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-desktop"></i>
+                                <div class="highlight-content">
+                                    <h4>Desktop Applications</h4>
+                                    <p>Python GUI, Qt, Tkinter, Statistical Tools</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-roles">
+                        <h3>Peran Profesional</h3>
+                        <div class="roles-list" id="roles-list">
+                            <!-- Roles will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Keahlian & Teknologi</h2>
+                    <p class="section-subtitle">Tools dan teknologi yang saya kuasai</p>
+                </div>
+                
+                <div class="skills-filter">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="Frontend">Frontend</button>
+                    <button class="filter-btn" data-filter="Backend">Backend</button>
+                    <button class="filter-btn" data-filter="Database">Database</button>
+                    <button class="filter-btn" data-filter="Tools">Tools</button>
+                    <button class="filter-btn" data-filter="Cloud">Cloud</button>
+                </div>
+                
+                <div class="skills-grid" id="skills-grid">
+                    <!-- Skills will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Proyek & Portfolio</h2>
+                    <p class="section-subtitle">Beberapa proyek yang telah saya kerjakan</p>
+                </div>
+                
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="Desktop">Desktop</button>
+                    <button class="filter-btn" data-filter="Data Science">Data Science</button>
+                    <button class="filter-btn" data-filter="library">Library</button>
+                    <button class="filter-btn" data-filter="Mobile">Mobile</button>
+                </div>
+                
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Projects will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Mari Berkolaborasi</h2>
+                    <p class="section-subtitle">Tertarik untuk bekerja sama? Mari kita diskusikan!</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p id="contact-email">ragus8188@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>GitHub</h4>
+                                <p id="contact-github">aogz24</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <p id="contact-linkedin">agus-riyanto-482494203</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nama</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subjek</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Pesan</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i>
+                                Kirim Pesan
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Agus Riyanto. Dibuat dengan ❤️.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link" id="footer-github" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" id="footer-linkedin" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link" id="footer-email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Theme Toggle Button -->
+    <!-- This button is also created dynamically by script.js for redundancy -->
+
+    <!-- Scripts -->
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

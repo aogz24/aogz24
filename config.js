@@ -42,13 +42,14 @@ const CONFIG = {
     {
       nama: "saePisan",
       deskripsi:
-        "saePisan adalah aplikasi GUI desktop yang dirancang untuk melakukan Small Area Estimation (SAE) menggunakan bahasa pemrograman R dan Python. Aplikasi ini menyediakan antarmuka intuitif bagi pengguna untuk memasukkan data, memilih metode estimasi, dan memvisualisasikan hasil. Mendukung berbagai teknik SAE, termasuk Empirical Best Linear Unbiased Prediction (EBLUP) dan metode Hierarki Bayesian. Dibangun menggunakan Python dengan Tkinter untuk GUI dan mengintegrasikan skrip R untuk komputasi statistik.",
+        "saePisan adalah aplikasi GUI desktop yang dirancang untuk melakukan Small Area Estimation (SAE) menggunakan bahasa pemrograman R dan Python. Aplikasi ini menyediakan antarmuka intuitif bagi pengguna untuk memasukkan data, memilih metode estimasi, dan memvisualisasikan hasil. Mendukung berbagai teknik SAE, termasuk Empirical Best Linear Unbiased Prediction (EBLUP) dan metode Hierarki Bayesian. Dibangun menggunakan Python dengan PyQt6 untuk GUI dan mengintegrasikan skrip R untuk komputasi statistik.",
       url: "https://www.saepisan.web.id/downloads",
       dokumentasi: "https://aogz24.github.io/sae-pisan-doc/",
       tangkapan_layar: ["assets/tampilan awal.png"],
       github: "https://github.com/aogz24/saePisan",
       teknologi: ["Python", "Qt", "R"],
       kategori: ["Desktop", "Data Science", "R", "Python"],
+      unggulan:true,
     },
     {
       nama: "saePy",

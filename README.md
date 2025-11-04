@@ -3,7 +3,7 @@
 
 
 ## Badge
-[![Holopin](https://holopin.onrender.com/aogz24)](https://holopin.io/@aogz24)
+[![An image of @aogz24's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/aogz24)](https://holopin.io/@aogz24)
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/agusagusagus123) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ragus8188) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/agus-riyanto-482494203) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@ragus8188) 

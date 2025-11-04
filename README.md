@@ -2,6 +2,9 @@
 🔭 I’m currently Student on Politeknik Statistika STIS<br>🌱 I’m currently learning Machine Learning
 
 
+## Badge
+[![Holopin](https://holopin.onrender.com/aogz24)](https://holopin.io/@aogz24)
+
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/agusagusagus123) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ragus8188) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/agus-riyanto-482494203) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@ragus8188) 
 
